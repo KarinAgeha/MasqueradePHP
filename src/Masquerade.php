@@ -17,12 +17,12 @@ abstract class Masquerade
         static::$latte = $latte;
     }
 
-    public static function getClassIdentity()
+    private static function getClassIdentity()
     {
         return static::resolveCoreClass(static::whoAmI());
     }
 
-    public static function whoAmI()
+    private static function whoAmI()
     {
         return static::getIdentity();
     }
