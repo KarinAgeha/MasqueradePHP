@@ -1,7 +1,7 @@
 # MasqueradePHP
 Laravel's facade like system.  
 # Notice
-The system relies on Latte, a dependency autoinjection container.  
+The system relies on [Latte](https://github.com/KarinAgeha/LattePHP), a dependency autoinjection container.  
 Don't forget to clone Latte when using this class.  
 # Usage
 ```php
